@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 #logo {
     width: 272px;
     height: 92px;
@@ -27,13 +31,15 @@ ul {
     overflow: hidden;
 }
 li {
-    display:inline-block;
+    display:inline;
     border-right: 25px solid white;
     border-top: 5px solid white;
 }
+
 #header {
     width:100%;
     height:50px;
+    font-size: small;
     
 }
 .right {
@@ -45,5 +51,25 @@ li {
     background-color: rgb(10,138,216);
     color: white;
     padding: 5px;
-    border-radius: 1px;
+    border: none;
+    font-weight: 700;
+}
+
+li img {
+    position: relative;
+    top: 7px;
+}
+li a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+#footer {
+    width:100%;
+    height:50px;
+    font-size: small;
+    background-color: aqua;
 }
